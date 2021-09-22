@@ -1,0 +1,33 @@
+
+         
+body{
+    background-image: url(/imagen/mujer.jpg);
+    
+}      
+
+
+
+#navbarDropdown:hover {
+    color:yellowgreen;
+   
+}
+
+#enlacecabecera:hover {
+    color:yellowgreen;
+    
+    
+    
+}
+.Recliente{
+    background-color:rgba(255,255,255,0.1);
+    color: aqua;
+}
+.formularioregistro{
+    padding:18px;
+
+}
+.fondo2{
+    background-color: blueviolet;
+    
+}      
+  

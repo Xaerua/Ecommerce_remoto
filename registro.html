@@ -1,0 +1,114 @@
+
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link href="css/estilos.css" rel="stylesheet">
+  
+      </head>
+      <body>
+          <div class="row fondo2">
+<div class="container ">
+    <div class="row">
+    <div class="col-12 col-md-7 Recliente">
+    <div>
+      
+          <div class="container col-md-6 formularioregistro " >
+              <h2 class="informacion">Datos del cliente</h2>
+              
+                  <form action="#" method="post">
+                       <div class="form-group">
+                  <label for="exampleInputEmail1">identificacion</label>
+                  <input type="number" class="form-control Recliente" id="campo1" name="id" aria-describedby="emailHelp" required>
+                  
+                </div>
+                 <input type="hidden" class="form-control " id="campo2" name="nit" value="" required>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">nombres</label>
+                  <input type="text" class="form-control Recliente" id="campo3" name="nombre" aria-describedby="emailHelp" required >
+                 
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">apellidos</label>
+                  <input type="text" class="form-control Recliente" id="campo4" name="apellido" required>
+                </div>
+                 <div class="form-group">
+                  <label for="exampleInputPassword1">departamento</label>
+                  <select  class="form-control Recliente" id="campo5" name="departamento" onchange="ciudades(this.value)" required>
+                    <option></option>
+                    
+                    <option>Antioquia</option>
+                    <option>Arauca</option>
+                    <option>Atlantico</option>
+                    <option>Bolivar</option>
+                    <option>Boyacá</option>
+                    <option>Caldas</option>
+                    <option>Caquetá</option>
+                    <option>Casanare</option>
+                    <option>Cauca</option>
+                    <option>Cesar</option>
+                    <option>Chocó</option>
+                    <option>Córdoba</option>
+                    <option>Cundinamarca</option>
+                   
+                    <option>Huila</option>
+                    <option>La Guajira</option>
+                    <option>Magdalena</option>
+                    <option>Meta</option>
+                    <option>Nariño</option>
+                    <option>Norte de Santander</option>
+                    <option>Putumayo</option>
+                    <option>Quindio</option>
+                    <option>Risaralda</option>
+                    
+                    <option>Santander</option>
+                    <option>Sucre</option>
+                    <option>Tolima</option>
+                    <option>Valle del Cauca</option>
+                  </select>
+                </div>
+                 <div class="form-group">
+                  <label for="exampleInputPassword1" >ciudad</label>
+                  <input type="text" class="form-control Recliente" id="campo6" name="ciudad" required >
+                </div>
+                <div class="form-group ">
+                    <label class="form-check-label" for="exampleCheck1">direccion de envio</label>
+                  <input type="text" class="form-control Recliente" id="campo7" name="direccion" required >
+                  
+                </div>
+                <div class="form-group">
+                    <label class="form-check-label" for="exampleCheck1">Telefono</label>
+                  <input type="number" class="form-control Recliente" id="campo8" name="telefono" required>
+                 </div>
+                 <div class="form-group">
+                    <label class="form-che" for="exampleCheck1">correo electronico</label>
+                  <input type="email" class="form-control Recliente" id="campo9" name="" disable="" value="">
+                </div>
+                <div class="form-group">
+                  <label class="form-che" for="exampleCheck1"> confirmar correo electronico</label>
+                <input type="email" class="form-control Recliente" id="campo10" name="" disable="" value="">
+              </div>
+                <div class="form-group">
+                    <label class="form-che" for="exampleCheck1">clave</label>
+                  <input type="text" class="form-control Recliente " id="campo11" name="clave" required>  
+                </div>
+                <div class="form-group">
+                  <label class="form-che" for="exampleCheck1"> confirmar clave</label>
+                <input type="text" class="form-control Recliente " id="campo11" name="clave" required>  
+              </div>
+              
+              
+                <button type="submit" class="btn btn-warning" id="comprar">Registrar</button>
+              </form>
+              </div>
+      
+    </div>
+    </div>
+    </div>
+    </div></div></div>
+</body>
+    </html>
