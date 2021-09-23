@@ -1,7 +1,7 @@
 
          
 body{
-    background-image: url(/imagen/mujer.jpg);
+    background-image: url(../imagen/mujer.jpg);
     
 }      
 
@@ -19,7 +19,7 @@ body{
     
 }
 .Recliente{
-    background-color:rgba(255,255,255,0.1);
+    background-color:rgba(255,255,255,0);
     color: aqua;
 }
 .formularioregistro{
@@ -30,4 +30,18 @@ body{
     background-color: blueviolet;
     
 }      
-  
+#button_register{
+    border-radius:5px;
+    height:30px;
+    width:80px;
+    background-color: chartreuse;
+    padding-top:2px;
+    padding-left:4px;
+    padding-right:1px;
+    margin-top: 7px;
+    color: blue;
+}
+#button_register:hover{
+    color:red;
+    background-color: aqua;
+}
